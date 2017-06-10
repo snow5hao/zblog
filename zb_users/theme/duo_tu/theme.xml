@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>duo_tu</id>
+<name>自适应|多图|简洁主题</name>
+<url>http://blog.b5b6.com/</url>
+<note>自适应多图简洁主题</note>
+<description>觉得不错就下载，有BUG会继续更新。</description>
+<path></path>
+<include></include>
+<level>1</level>
+<author>
+  <name>老白</name>
+  <email>525887672@qq.com</email>
+  <url>http://blog.b5b6.com/</url>
+</author>
+<source>
+  <name>老白</name>
+  <email>525887672@qq.com</email>
+  <url>http://blog.b5b6.com/</url>
+</source>
+<adapted>150101</adapted>
+<version>1.0</version>
+<pubdate>2016-01-25</pubdate>
+<modified>2016-02-05</modified>
+<price>0</price>
+<advanced>
+  <dependency>sf_img1</dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1>navbar|archives|link</sidebar1>
+  <sidebar2>navbar|statistics</sidebar2>
+  <sidebar3>calendar|controlpanel</sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</theme><!-- app_host:http://localhost/;app_email:;app_user:admin; -->

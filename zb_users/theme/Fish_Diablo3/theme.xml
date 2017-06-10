@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>Fish_Diablo3</id>
+<name>Diablo3主题</name>
+<url>http://zblog.party/d3/</url>
+<note>Diablo3中文站主题</note>
+<description>取自Diablo3中文官网设计风格，加了少许细节改动。</description>
+<path></path>
+<include></include>
+<level>1</level>
+<author>
+  <name>天边鱼</name>
+  <email>endfish@qq.com</email>
+  <url>http://www.tianbianyu.com/</url>
+</author>
+<source>
+  <name>Diablo3中文站</name>
+  <email></email>
+  <url>http://d3.blizzard.cn/</url>
+</source>
+<adapted>150101</adapted>
+<version>2</version>
+<pubdate>2016-01-13</pubdate>
+<modified>2016-02-02</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</theme><!-- app_host:http://localhost/;app_email:;app_user:endfish; -->

@@ -1,0 +1,138 @@
+
+
+
+body{margin:0;background-image:url(img/bg.jpg);background-repeat:repeat;text-decoration:none;font-family:"微软雅黑"}
+div{display:block}
+a{color:#000;text-decoration:none}
+a:hover{color:red;text-decoration:none}
+ul{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding:0}
+li{list-style-type:none}
+img {border:0;}
+.clear{clear:both}
+
+.top{width:100%;height:80px;background:#2E3641;background-image:url(img/qmsht.jpg)}
+.container{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:1340px;height:auto;font-family:'STXingkai', serif;font-size: 25px}
+.top-left{float:left;width:auto;height:80px}
+.top-left .logo{float:left;margin-top:15px;margin-right:0;margin-bottom:15px;margin-left:0;width:200px;height:50px;background-image:url(img/logo.png);background-repeat:no-repeat}
+.top-left .name{float:left;overflow:hidden;margin-top:35px;margin-right:0;margin-bottom:25px;margin-left:0;width:620px;height:20px;color:#999;vertical-align:bottom;font-weight:700;font-size:12px;line-height:20px}
+.top-right{float:right;width:250px;height:80px}
+.top-right ul{margin-top:0;margin-right:0;margin-bottom:0;margin-left:auto;width:auto;height:80px;vertical-align:middle}
+.top-right ul li{float:left;margin-top:28px;margin-bottom:28px;margin-left:20px;width:24px;height:24px;list-style-type:none;vertical-align:middle}
+.top-right .social .sina-weibo{background-image:url(img/sina-weibo-0.png);background-repeat:no-repeat}
+.top-right .social .sina-weibo:hover{background-image:url(img/sina-weibo.png)}
+.top-right .social .tengxun-weibo{background-image:url(img/tengxun-weibo-0.png);background-repeat:no-repeat}
+.top-right .social .tengxun-weibo:hover{background-image:url(img/tengxun-weibo.png)}
+.top-right .social .e-mail{background-image:url(img/email-0.png);background-repeat:no-repeat}
+.top-right .social .e-mail:hover{background-image:url(img/email.png)}
+.top-right .social .rss-feed{background-image:url(img/rss-feed-0.png);background-repeat:no-repeat}
+.top-right .social .rss-feed:hover{background-image:url(img/rss-feed.png)}
+.top-right .social a{display:block;width:24px;height:24px}
+#nav{margin-bottom:20px;min-height:50px;background-color:#f8f8f8;color:#e7e7e7}
+#nav .navbar{float:left;width:auto;height:50px}
+#nav .navbar ul{margin:0;list-style-type:none}
+#nav .navbar ul li{float:left;display:block;margin-right:1px;width:auto;height:50px;list-style-type:none;line-height:50px;font-family:'STXingkai', serif;font-size: 40px }
+#nav .navbar ul li a{padding-right:15px;padding-left:15px}
+#nav .navbar ul li a:hover{display:block;background-color:#CCC;color:#000}
+
+.searchform{float:right;margin-right:50px;width:auto;height:50px}
+.form-control{float:left;margin-top:10px;margin-right:5px;margin-bottom:10px;margin-left:5px;padding-right:10px;padding-left:10px;width:180px;height:28px;border:1px solid #ccc;border-radius:4px;font-size:12px;line-height:12px;font-family:'STXingkai', serif;}
+.searchsubmit{float:left;margin-top:10px;margin-right:10px;margin-bottom:10px;padding-right:5px;padding-left:5px;width:36px;height:30px;border:1px solid #ccc;border-color:#ac2925;border-radius:4px;background-color:#c9302c;color:#fff;font-size:12px;line-height:12px}
+#divMid{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:1340px;height:auto}
+#divCouplet {
+    float: left;
+    width: 100px;
+    height: 1000px;
+    color: #010102;
+    border: 10px;
+    font-size: 100px;
+    font-family:'STXingkai', serif;
+    margin-left: 110px;
+    position: relative;
+}
+#divCouplet2 {
+    float: right;
+    width: 100px;
+    height: 1000px;
+    color: #010102;
+    border: 10px;
+    font-size: 100px;
+    font-family:'STXingkai', serif;
+    margin-right: 50px;
+    position: relative;
+}
+#OnePoem{font-family:'STXingkai', serif;font-size: 40px}
+#divMain{float:left;width:750px;height:auto}
+#divMain .slider{margin-bottom:20px}
+#divMain .space{margin-bottom:20px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;background-color:#FFF}
+.list{margin-bottom:20px;padding:20px;width:710px;height:auto;background-color:#FFF}
+.list-title a{margin-top:15px;margin-bottom:10px;height:25px;color:#000;font-weight:700;font-size:24px;font-family:"Lucida Console",Monaco,monospace;line-height:32px}
+.list-info{margin-top:5px;margin-bottom:5px;height:20px;color:#aaa;font-size:14px;line-height:20px}
+.list-info a{color:#aaa}
+.list-body{margin-bottom:10px;color:#333;font-size:14px;font-family:"微软雅黑";line-height:20px}
+.list-tags{float:left;height:20px;font-size:12px}
+.list-tags a{margin:3px;padding:3px;border-radius:4px;background-color:#999;color:#FFF}
+.viewmore a{float:right;height:20px;color:red;font-size:12px}
+#divMid .pagebar{margin-top:40px;margin-bottom:40px;text-align:right}
+span.page{padding-top:8px;padding-right:16px;padding-bottom:8px;padding-left:16px;border-radius:8px;background-color:#FFF;color:#666;font-weight:bolder}
+span.now-page{padding-top:8px;padding-right:16px;padding-bottom:8px;padding-left:16px;background-color:red;color:#FFF;font-weight:bolder}
+a:hover span.page{border:1px solid red;color:red}
+footer#body-footer{padding:10px 20px;background:#393939;color:#fff;text-align:center;font-size:14px}
+footer#body-footer a{color:#FFF}
+.post.single{overflow:hidden;margin-bottom:20px;padding:19px;min-height:20px;border:1px solid #e3e3e3;border-radius:0;background-color:#fff;box-shadow:0}
+.post.single .post-body{font-size:14px;font-family:"微软雅黑"}
+.post.single .post-body img{max-width:710px}
+.post.single .copyright{margin-top:15px;padding:10px;border:1px solid #ff4d3a;font-size:14px;line-height:16px;border-left-width:thick}
+#divSidebar{float:right;width:360px;height:auto}
+.function{float:left;margin-top:0;margin-right:0;margin-bottom:20;margin-left:0;padding:0;width:100%;text-align:left;font-size:16px;font-family:'STXingkai', serif;}
+.function .function_t{margin:0;padding:15px;height:24px;background:#fff;color:#444;font-size:1.15em;line-height:24px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:red}
+.function ul{margin:0;padding:0;width:100%;border-top:1px solid #FFF;list-style-position:outside;list-style-type:none;text-align:left}
+.function li{margin:0;padding-top:10px;padding-right:5px;padding-bottom:10px;padding-left:15px;width:auto;border-bottom-width:thin;border-bottom-style:solid;border-bottom-color:#CCC}
+.function .function_c{margin:0;background:#fff;color:#444}
+.function .function_c div{padding:.8em 0 .5em 1em;line-height:1.5em}
+#divCalendar{padding:0;width:100%;background-color:#FFF}
+#divCalendar div{float:left;margin:0;padding:15px;width:330px}
+#divCalendar table{padding:0 2% 0 2%;width:100%;text-align:center}
+#divCalendar table a{font-weight:700}
+#divSearchpanel{padding-top:10px;padding-right:15px;padding-bottom:10px;padding-left:15px;width:330px}
+#divCatalog li span.feed-icon{display:none}
+#divCatalog li.li-subcate{margin:0 0 0 1em}
+#divSearchPanel ul form{display:block;padding:15px}
+#divSearchPanel input[type=text]{width:250px;height:24px;border:1px solid #bfd0d7;line-height:24px}
+#divSearchPanel input[type=submit]{margin-left:5px;width:50px;height:28px;border:1px solid #bfd0d7;background:#e5f0f6;line-height:24px}
+#divTags dd ul{padding-top:10px;padding-right:15px;padding-bottom:10px;padding-left:15px;width:330px}
+#divTags dd ul li{display:inline-block;overflow:hidden;margin-right:5px;margin-bottom:5px;padding:3px;border:thin solid #CCC;verticle-align:top}
+#divComments li,divPrevious li{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:keep-all}
+#sx{margin-top:10px;width:710px;list-style-type:none;font-size:12px}
+#sx .l{float:left;width:50%;text-align:left}
+#sx .r{float:left;width:50%;text-align:right}
+#sx a{padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;border:thin solid #CCC;border-radius:30px}
+#sx a:hover{background-color:#CCC;color:red}
+.related{margin-top:20px;margin-left:0;font-size:13px;font-family:"微软雅黑"}
+.related-title{margin-bottom:15px;font-weight:700;line-height:20px;border-bottom-width:thin;border-bottom-style:dotted;border-bottom-color:#CCC}
+#related li{margin-top:2px;margin-bottom:2px;line-height:20px}
+.bdshare{margin-top:10px;margin-right:auto;margin-bottom:10px;margin-left:220px}
+ul.msg{margin:10px 0 20px 0;padding:5px 1% 5px 1%;width:98%;table-layout:fixed;text-align:left;word-wrap:break-word;list-style-position:outside}
+li.msgname{margin:0;padding:0 0 10px 5px;font-weight:700;font-size:1em}
+li.msgurl{margin:0;padding:2px 10px 2px 10px;text-align:right;font-size:1em}
+li.msggravatar{float:left;display:block;margin-right:5px}
+li.msgarticle{margin:0;padding:10px;padding-left:55px;border-bottom:1px solid #eaeaea;background:#FFF;line-height:160%;list-style-position:outside}
+li.msgtime{padding:5px 0 0 0;font-weight:400;font-size:.8em}
+img.avatar{float:left;padding:4px;width:40px;height:40px;border:1px solid #eaeaea}
+ul.msg ul.msg{margin:20px 0 0 0;padding:10px 0 0 0;border-top:1px solid #eaeaea;border-bottom:none}
+ul.msg ul.msg li.msgarticle{padding-bottom:0;border-bottom:0 solid #eaeaea}
+ul.msg ul.msg li.msgname{padding:0}
+ul.msghead,ul.mutuality,ul.pagebar{border:none}
+ul.msghead li.tbname,ul.mutuality li.tbname{padding-bottom:10px;border-bottom:1px solid #dbe0e6;color:#3c6da7}
+ul.mutuality li.msgarticle{padding-left:0;border:none}
+li.msgarticle div.quote{margin:10px 0 0 0;padding:10px;border:1px #F4F4F4 solid;background:#FFF}
+li.msgarticle div.quote-title{margin:0;padding:0;color:red;font-size:1em}
+#divCommentPost{margin:0;padding:5px 1% 15px 1%;width:98%}
+#divCommentPost p{margin-top:10px}
+#divCommentPost label{margin-top:5px}
+#divCommentPost p.posttop{color:#3c6da7}
+#divCommentPost img{margin-bottom:-.5em}
+#cancel-reply{float:right;margin-right:2em}
+div.reply-frm{margin:1em 1%!important;padding:.3em .8em!important;min-width:330px;background:#f0f0f0;box-shadow:0 0 15px #666}
+input.text{padding:2px 5px 2px 5px;height:24px;border:1px solid #d7d7d7;line-height:20px}
+#txaArticle{padding:5px;width:95%;height:150px;border:1px solid #d7d7d7}
+input.button{width:100px;height:32px;border:1px solid #39C;background:#3a6ea5;color:#FFF;font-size:14px;cursor:pointer}
